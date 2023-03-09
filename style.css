@@ -1,0 +1,82 @@
+/* made 3-8-23 Wednesday */
+
+* {
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif; 
+    color: #2E475D; 
+    font-size: 35px;   
+}
+
+/* Makes the Header and header items */
+.header {
+    float: none;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    background-color: #999;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+/* Makes the Score show on the header */
+.header .score {
+    float: left;
+}
+.header .button {
+    float: right;
+}
+
+/* Makes Buttons */
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.invalid_btn {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* When the Button is click */
+.button:active {
+    background-color: white;
+    color: black;
+}
+
+/* Makes the Shop */
+.shopMenu {
+    background-color: gray;
+}
+
+/* Makes Images circular */
+.circular--landscape { 
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular--landscape img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -50px; 
+}
